@@ -16,7 +16,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_31014855627a2917f37130dd3b94734c {
+                #map_0a16c8bcdadf2ca95c86859a9612206b {
                     position: relative;
                     width: 100.0vw;
                     height: 100.0vh;
@@ -259,24 +259,24 @@
     
     <div style="position:fixed; bottom:24px; right:10px; z-index:9999; background:rgba(255,255,255,0.85); padding:3px 6px; font-size:11px; color:#333; border-radius:3px;">Source: NYC Open Data</div>
     
-            <div class="folium-map" id="map_31014855627a2917f37130dd3b94734c" ></div>
+            <div class="folium-map" id="map_0a16c8bcdadf2ca95c86859a9612206b" ></div>
         
 </body>
 <script>
     
     
-            var map_31014855627a2917f37130dd3b94734c = L.map(
-                "map_31014855627a2917f37130dd3b94734c",
+            var map_0a16c8bcdadf2ca95c86859a9612206b = L.map(
+                "map_0a16c8bcdadf2ca95c86859a9612206b",
                 {
-                    center: [40.78658910679944, -73.97570681036637],
+                    center: [40.78658910679944, -73.97570681036638],
                     crs: L.CRS.EPSG3857,
                     ...{
   "zoom": 14.5,
   "minZoom": 14.5,
   "maxZoom": 14.5,
-  "zoomSnap": 0.5,
   "zoomControl": false,
   "preferCanvas": false,
+  "zoomSnap": 0.5,
   "dragging": false,
   "scrollWheelZoom": false,
   "doubleClickZoom": false,
@@ -287,13 +287,13 @@
 
                 }
             );
-            L.control.scale().addTo(map_31014855627a2917f37130dd3b94734c);
+            L.control.scale().addTo(map_0a16c8bcdadf2ca95c86859a9612206b);
 
             
 
         
     
-            var tile_layer_7254156bb53d41b3577ef34b2b3b940c = L.tileLayer(
+            var tile_layer_c5c0182db5f1e77c35113b914f30c8a6 = L.tileLayer(
                 "https://tiles.stadiamaps.com/tiles/stamen_terrain/{z}/{x}/{y}.png",
                 {
   "minZoom": 0,
@@ -310,39 +310,39 @@
             );
         
     
-            tile_layer_7254156bb53d41b3577ef34b2b3b940c.addTo(map_31014855627a2917f37130dd3b94734c);
+            tile_layer_c5c0182db5f1e77c35113b914f30c8a6.addTo(map_0a16c8bcdadf2ca95c86859a9612206b);
         
     
-            var feature_group_f15ebb4688a6879803f9f1c315e2d312 = L.featureGroup(
+            var feature_group_24fd26745835c71002bb3474f2758b8f = L.featureGroup(
                 {
 }
             );
         
     
-            var circle_marker_36b24375ccaec75caa0e4c36e41e1caa = L.circleMarker(
+            var circle_marker_3323b8623c196ef9609d71a4c32c9c39 = L.circleMarker(
                 [40.78331643, -73.98062197],
                 {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
-            ).addTo(feature_group_f15ebb4688a6879803f9f1c315e2d312);
+            ).addTo(feature_group_24fd26745835c71002bb3474f2758b8f);
         
     
-        var popup_e514a6f1a4e27372d85680a454464a08 = L.popup({
+        var popup_76416efbe481ebf16e913321584c7e39 = L.popup({
   "maxWidth": 350,
 });
 
         
             
-                var html_723cc82985fe767bcd19ada107041dcf = $(`<div id="html_723cc82985fe767bcd19ada107041dcf" style="width: 100.0%; height: 100.0%;"><strong>Broadway &amp; W 78 St</strong><br>Type: Bin<br>Notes: Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!<br>Access: 24/7 (app required)</div>`)[0];
-                popup_e514a6f1a4e27372d85680a454464a08.setContent(html_723cc82985fe767bcd19ada107041dcf);
+                var html_27315e4d7eb6ec12a9d4e5f6abbeef00 = $(`<div id="html_27315e4d7eb6ec12a9d4e5f6abbeef00" style="width: 100.0%; height: 100.0%;"><strong>Broadway &amp; W 78 St</strong><br>Type: Bin<br>Notes: Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!<br>Access: 24/7 (app required)</div>`)[0];
+                popup_76416efbe481ebf16e913321584c7e39.setContent(html_27315e4d7eb6ec12a9d4e5f6abbeef00);
             
         
 
-        circle_marker_36b24375ccaec75caa0e4c36e41e1caa.bindPopup(popup_e514a6f1a4e27372d85680a454464a08)
+        circle_marker_3323b8623c196ef9609d71a4c32c9c39.bindPopup(popup_76416efbe481ebf16e913321584c7e39)
         ;
 
         
     
     
-            circle_marker_36b24375ccaec75caa0e4c36e41e1caa.bindTooltip(
+            circle_marker_3323b8623c196ef9609d71a4c32c9c39.bindTooltip(
                 `<div>
                      Broadway &amp; W 78 St | Bin
                  </div>`,
@@ -352,30 +352,30 @@
             );
         
     
-            var circle_marker_1cc804cfa9068421b101123846af5c59 = L.circleMarker(
+            var circle_marker_039c27837557fdf433128bfd976c044a = L.circleMarker(
                 [40.78193046, -73.97196532],
                 {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
-            ).addTo(feature_group_f15ebb4688a6879803f9f1c315e2d312);
+            ).addTo(feature_group_24fd26745835c71002bb3474f2758b8f);
         
     
-        var popup_202ddee7110e457558a0db356cf3a8e6 = L.popup({
+        var popup_a79dd03194c5533597e02182f31332d4 = L.popup({
   "maxWidth": 350,
 });
 
         
             
-                var html_c372d0e409654ea0aad3af6596f0cc5b = $(`<div id="html_c372d0e409654ea0aad3af6596f0cc5b" style="width: 100.0%; height: 100.0%;"><strong>W 81 St &amp; Central Park W</strong><br>Type: Bin<br>Notes: Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!<br>Access: 24/7 (app required)</div>`)[0];
-                popup_202ddee7110e457558a0db356cf3a8e6.setContent(html_c372d0e409654ea0aad3af6596f0cc5b);
+                var html_9fda3133ad9e2c34ff7bd4556f1429dc = $(`<div id="html_9fda3133ad9e2c34ff7bd4556f1429dc" style="width: 100.0%; height: 100.0%;"><strong>W 81 St &amp; Central Park W</strong><br>Type: Bin<br>Notes: Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!<br>Access: 24/7 (app required)</div>`)[0];
+                popup_a79dd03194c5533597e02182f31332d4.setContent(html_9fda3133ad9e2c34ff7bd4556f1429dc);
             
         
 
-        circle_marker_1cc804cfa9068421b101123846af5c59.bindPopup(popup_202ddee7110e457558a0db356cf3a8e6)
+        circle_marker_039c27837557fdf433128bfd976c044a.bindPopup(popup_a79dd03194c5533597e02182f31332d4)
         ;
 
         
     
     
-            circle_marker_1cc804cfa9068421b101123846af5c59.bindTooltip(
+            circle_marker_039c27837557fdf433128bfd976c044a.bindTooltip(
                 `<div>
                      W 81 St &amp; Central Park W | Bin
                  </div>`,
@@ -385,30 +385,30 @@
             );
         
     
-            var circle_marker_c991d26ec85277bc58d601f89e82419c = L.circleMarker(
+            var circle_marker_2a6fd557fb42b41ddde49d5f4970bf7b = L.circleMarker(
                 [40.77622161, -73.9761931],
                 {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
-            ).addTo(feature_group_f15ebb4688a6879803f9f1c315e2d312);
+            ).addTo(feature_group_24fd26745835c71002bb3474f2758b8f);
         
     
-        var popup_b2e38cf2976b76cff337aa77122c9bc0 = L.popup({
+        var popup_743c9e60b812d29c4b0d81b081239944 = L.popup({
   "maxWidth": 350,
 });
 
         
             
-                var html_cc349a3d1db1c334bb3d28ce9ed7cc71 = $(`<div id="html_cc349a3d1db1c334bb3d28ce9ed7cc71" style="width: 100.0%; height: 100.0%;"><strong>W 72 St &amp; Central Park W</strong><br>Type: Bin<br>Notes: Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!<br>Access: 24/7 (app required)</div>`)[0];
-                popup_b2e38cf2976b76cff337aa77122c9bc0.setContent(html_cc349a3d1db1c334bb3d28ce9ed7cc71);
+                var html_12a5f7556c98dc5487ae3cd60afadd94 = $(`<div id="html_12a5f7556c98dc5487ae3cd60afadd94" style="width: 100.0%; height: 100.0%;"><strong>W 72 St &amp; Central Park W</strong><br>Type: Bin<br>Notes: Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!<br>Access: 24/7 (app required)</div>`)[0];
+                popup_743c9e60b812d29c4b0d81b081239944.setContent(html_12a5f7556c98dc5487ae3cd60afadd94);
             
         
 
-        circle_marker_c991d26ec85277bc58d601f89e82419c.bindPopup(popup_b2e38cf2976b76cff337aa77122c9bc0)
+        circle_marker_2a6fd557fb42b41ddde49d5f4970bf7b.bindPopup(popup_743c9e60b812d29c4b0d81b081239944)
         ;
 
         
     
     
-            circle_marker_c991d26ec85277bc58d601f89e82419c.bindTooltip(
+            circle_marker_2a6fd557fb42b41ddde49d5f4970bf7b.bindTooltip(
                 `<div>
                      W 72 St &amp; Central Park W | Bin
                  </div>`,
@@ -418,30 +418,30 @@
             );
         
     
-            var circle_marker_cea2d33b24c7f8ff3d59db7ddb05e9e1 = L.circleMarker(
+            var circle_marker_ba3ebc0995d723287058f2858efe9351 = L.circleMarker(
                 [40.79837079, -73.96888428],
                 {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
-            ).addTo(feature_group_f15ebb4688a6879803f9f1c315e2d312);
+            ).addTo(feature_group_24fd26745835c71002bb3474f2758b8f);
         
     
-        var popup_888eab23251b91b57205d814979f655c = L.popup({
+        var popup_6e9acb54be857d04ede2f9236ae3fed3 = L.popup({
   "maxWidth": 350,
 });
 
         
             
-                var html_009bdde19f2d5213d910697eead9d614 = $(`<div id="html_009bdde19f2d5213d910697eead9d614" style="width: 100.0%; height: 100.0%;"><strong>Broadway &amp; W 102 St</strong><br>Type: Bin<br>Notes: Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!<br>Access: 24/7 (app required)</div>`)[0];
-                popup_888eab23251b91b57205d814979f655c.setContent(html_009bdde19f2d5213d910697eead9d614);
+                var html_edbb68b713a714fcfa52cb231bffe81b = $(`<div id="html_edbb68b713a714fcfa52cb231bffe81b" style="width: 100.0%; height: 100.0%;"><strong>Broadway &amp; W 102 St</strong><br>Type: Bin<br>Notes: Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!<br>Access: 24/7 (app required)</div>`)[0];
+                popup_6e9acb54be857d04ede2f9236ae3fed3.setContent(html_edbb68b713a714fcfa52cb231bffe81b);
             
         
 
-        circle_marker_cea2d33b24c7f8ff3d59db7ddb05e9e1.bindPopup(popup_888eab23251b91b57205d814979f655c)
+        circle_marker_ba3ebc0995d723287058f2858efe9351.bindPopup(popup_6e9acb54be857d04ede2f9236ae3fed3)
         ;
 
         
     
     
-            circle_marker_cea2d33b24c7f8ff3d59db7ddb05e9e1.bindTooltip(
+            circle_marker_ba3ebc0995d723287058f2858efe9351.bindTooltip(
                 `<div>
                      Broadway &amp; W 102 St | Bin
                  </div>`,
@@ -451,30 +451,30 @@
             );
         
     
-            var circle_marker_9322a88bc5a5a0307f9540554b7646e6 = L.circleMarker(
+            var circle_marker_2a216adca7195ee31d1da71ec7adfdac = L.circleMarker(
                 [40.78911889, -73.96666802],
                 {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
-            ).addTo(feature_group_f15ebb4688a6879803f9f1c315e2d312);
+            ).addTo(feature_group_24fd26745835c71002bb3474f2758b8f);
         
     
-        var popup_7f6cddd7ac65059316c34f26c0812d92 = L.popup({
+        var popup_5816367defb06476a8026a3749eed460 = L.popup({
   "maxWidth": 350,
 });
 
         
             
-                var html_932163734d77f405e2186994e382a5b2 = $(`<div id="html_932163734d77f405e2186994e382a5b2" style="width: 100.0%; height: 100.0%;"><strong>W 92 St &amp; Central Park W</strong><br>Type: Bin<br>Notes: Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!<br>Access: 24/7 (app required)</div>`)[0];
-                popup_7f6cddd7ac65059316c34f26c0812d92.setContent(html_932163734d77f405e2186994e382a5b2);
+                var html_a3c4f2405bc587411cdc087e8fbe6b0d = $(`<div id="html_a3c4f2405bc587411cdc087e8fbe6b0d" style="width: 100.0%; height: 100.0%;"><strong>W 92 St &amp; Central Park W</strong><br>Type: Bin<br>Notes: Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!<br>Access: 24/7 (app required)</div>`)[0];
+                popup_5816367defb06476a8026a3749eed460.setContent(html_a3c4f2405bc587411cdc087e8fbe6b0d);
             
         
 
-        circle_marker_9322a88bc5a5a0307f9540554b7646e6.bindPopup(popup_7f6cddd7ac65059316c34f26c0812d92)
+        circle_marker_2a216adca7195ee31d1da71ec7adfdac.bindPopup(popup_5816367defb06476a8026a3749eed460)
         ;
 
         
     
     
-            circle_marker_9322a88bc5a5a0307f9540554b7646e6.bindTooltip(
+            circle_marker_2a216adca7195ee31d1da71ec7adfdac.bindTooltip(
                 `<div>
                      W 92 St &amp; Central Park W | Bin
                  </div>`,
@@ -484,30 +484,30 @@
             );
         
     
-            var circle_marker_889884f02c57c7040a46d5fd8746621e = L.circleMarker(
+            var circle_marker_1ab800ac576c4d1e60ef9b495eabaac2 = L.circleMarker(
                 [40.77432421, -73.98491538],
                 {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
-            ).addTo(feature_group_f15ebb4688a6879803f9f1c315e2d312);
+            ).addTo(feature_group_24fd26745835c71002bb3474f2758b8f);
         
     
-        var popup_0d6c16e0977791ee2b9fbb5463fa44e6 = L.popup({
+        var popup_599f583914d3f5bbf261783f565c6e42 = L.popup({
   "maxWidth": 350,
 });
 
         
             
-                var html_c2834facfbe7a49bc85de762e3b07e55 = $(`<div id="html_c2834facfbe7a49bc85de762e3b07e55" style="width: 100.0%; height: 100.0%;"><strong>Amsterdam Ave &amp; W 65 St</strong><br>Type: Bin<br>Notes: Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!<br>Access: 24/7 (app required)</div>`)[0];
-                popup_0d6c16e0977791ee2b9fbb5463fa44e6.setContent(html_c2834facfbe7a49bc85de762e3b07e55);
+                var html_6a594372534d5ea1b7881307ddc782c6 = $(`<div id="html_6a594372534d5ea1b7881307ddc782c6" style="width: 100.0%; height: 100.0%;"><strong>Amsterdam Ave &amp; W 65 St</strong><br>Type: Bin<br>Notes: Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!<br>Access: 24/7 (app required)</div>`)[0];
+                popup_599f583914d3f5bbf261783f565c6e42.setContent(html_6a594372534d5ea1b7881307ddc782c6);
             
         
 
-        circle_marker_889884f02c57c7040a46d5fd8746621e.bindPopup(popup_0d6c16e0977791ee2b9fbb5463fa44e6)
+        circle_marker_1ab800ac576c4d1e60ef9b495eabaac2.bindPopup(popup_599f583914d3f5bbf261783f565c6e42)
         ;
 
         
     
     
-            circle_marker_889884f02c57c7040a46d5fd8746621e.bindTooltip(
+            circle_marker_1ab800ac576c4d1e60ef9b495eabaac2.bindTooltip(
                 `<div>
                      Amsterdam Ave &amp; W 65 St | Bin
                  </div>`,
@@ -517,30 +517,30 @@
             );
         
     
-            var circle_marker_a521b95ed7c953fccea9f2966f295a99 = L.circleMarker(
+            var circle_marker_f05aee063a8c75d5446dfe136b2a3e28 = L.circleMarker(
                 [40.79530362, -73.97107264],
                 {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
-            ).addTo(feature_group_f15ebb4688a6879803f9f1c315e2d312);
+            ).addTo(feature_group_24fd26745835c71002bb3474f2758b8f);
         
     
-        var popup_b47e7670b1924451459d8c3ed5a77c61 = L.popup({
+        var popup_e9a89b37a5b9a26c5037a6d20fc53517 = L.popup({
   "maxWidth": 350,
 });
 
         
             
-                var html_0594b6519932b0cc720f5a9365fa182d = $(`<div id="html_0594b6519932b0cc720f5a9365fa182d" style="width: 100.0%; height: 100.0%;"><strong>Broadway &amp; W 97 St</strong><br>Type: Bin<br>Notes: Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!<br>Access: 24/7 (app required)</div>`)[0];
-                popup_b47e7670b1924451459d8c3ed5a77c61.setContent(html_0594b6519932b0cc720f5a9365fa182d);
+                var html_1c80ee7b0a9d6c85fc862fc3168e19d1 = $(`<div id="html_1c80ee7b0a9d6c85fc862fc3168e19d1" style="width: 100.0%; height: 100.0%;"><strong>Broadway &amp; W 97 St</strong><br>Type: Bin<br>Notes: Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!<br>Access: 24/7 (app required)</div>`)[0];
+                popup_e9a89b37a5b9a26c5037a6d20fc53517.setContent(html_1c80ee7b0a9d6c85fc862fc3168e19d1);
             
         
 
-        circle_marker_a521b95ed7c953fccea9f2966f295a99.bindPopup(popup_b47e7670b1924451459d8c3ed5a77c61)
+        circle_marker_f05aee063a8c75d5446dfe136b2a3e28.bindPopup(popup_e9a89b37a5b9a26c5037a6d20fc53517)
         ;
 
         
     
     
-            circle_marker_a521b95ed7c953fccea9f2966f295a99.bindTooltip(
+            circle_marker_f05aee063a8c75d5446dfe136b2a3e28.bindTooltip(
                 `<div>
                      Broadway &amp; W 97 St | Bin
                  </div>`,
@@ -550,30 +550,30 @@
             );
         
     
-            var circle_marker_1895f101c5325943192ac3bcada72b30 = L.circleMarker(
+            var circle_marker_6cdc6deb9b8cefda77ba9fa0786b7be6 = L.circleMarker(
                 [40.78914316, -73.97035768],
                 {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
-            ).addTo(feature_group_f15ebb4688a6879803f9f1c315e2d312);
+            ).addTo(feature_group_24fd26745835c71002bb3474f2758b8f);
         
     
-        var popup_1f989549ad98be68dd45d2b8b0adb34e = L.popup({
+        var popup_1ae07cd40d42f48b19228db8da055442 = L.popup({
   "maxWidth": 350,
 });
 
         
             
-                var html_0663d9c2dd4b45730b9a196878c72c31 = $(`<div id="html_0663d9c2dd4b45730b9a196878c72c31" style="width: 100.0%; height: 100.0%;"><strong>Columbus Ave &amp; W 90 St</strong><br>Type: Bin<br>Notes: Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!<br>Access: 24/7 (app required)</div>`)[0];
-                popup_1f989549ad98be68dd45d2b8b0adb34e.setContent(html_0663d9c2dd4b45730b9a196878c72c31);
+                var html_a50a4a6052699aa1c23ff1b6f13e33de = $(`<div id="html_a50a4a6052699aa1c23ff1b6f13e33de" style="width: 100.0%; height: 100.0%;"><strong>Columbus Ave &amp; W 90 St</strong><br>Type: Bin<br>Notes: Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!<br>Access: 24/7 (app required)</div>`)[0];
+                popup_1ae07cd40d42f48b19228db8da055442.setContent(html_a50a4a6052699aa1c23ff1b6f13e33de);
             
         
 
-        circle_marker_1895f101c5325943192ac3bcada72b30.bindPopup(popup_1f989549ad98be68dd45d2b8b0adb34e)
+        circle_marker_6cdc6deb9b8cefda77ba9fa0786b7be6.bindPopup(popup_1ae07cd40d42f48b19228db8da055442)
         ;
 
         
     
     
-            circle_marker_1895f101c5325943192ac3bcada72b30.bindTooltip(
+            circle_marker_6cdc6deb9b8cefda77ba9fa0786b7be6.bindTooltip(
                 `<div>
                      Columbus Ave &amp; W 90 St | Bin
                  </div>`,
@@ -583,30 +583,30 @@
             );
         
     
-            var circle_marker_20d6613dae5aaaf393aee644f4f84bfd = L.circleMarker(
+            var circle_marker_cef88bb1bdfc5132d343a0269c2a68c7 = L.circleMarker(
                 [40.80348382, -73.96686314],
                 {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
-            ).addTo(feature_group_f15ebb4688a6879803f9f1c315e2d312);
+            ).addTo(feature_group_24fd26745835c71002bb3474f2758b8f);
         
     
-        var popup_218429c2dcfc190fb12babed99360203 = L.popup({
+        var popup_443d60de1cdb194992c62338f4d660ec = L.popup({
   "maxWidth": 350,
 });
 
         
             
-                var html_2c6326b63113a45f38d9d41dc072e83e = $(`<div id="html_2c6326b63113a45f38d9d41dc072e83e" style="width: 100.0%; height: 100.0%;"><strong>Broadway &amp; W 109 St</strong><br>Type: Bin<br>Notes: Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!<br>Access: 24/7 (app required)</div>`)[0];
-                popup_218429c2dcfc190fb12babed99360203.setContent(html_2c6326b63113a45f38d9d41dc072e83e);
+                var html_383cd81e9ee9c7c1bd417b672c40ac9b = $(`<div id="html_383cd81e9ee9c7c1bd417b672c40ac9b" style="width: 100.0%; height: 100.0%;"><strong>Broadway &amp; W 109 St</strong><br>Type: Bin<br>Notes: Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!<br>Access: 24/7 (app required)</div>`)[0];
+                popup_443d60de1cdb194992c62338f4d660ec.setContent(html_383cd81e9ee9c7c1bd417b672c40ac9b);
             
         
 
-        circle_marker_20d6613dae5aaaf393aee644f4f84bfd.bindPopup(popup_218429c2dcfc190fb12babed99360203)
+        circle_marker_cef88bb1bdfc5132d343a0269c2a68c7.bindPopup(popup_443d60de1cdb194992c62338f4d660ec)
         ;
 
         
     
     
-            circle_marker_20d6613dae5aaaf393aee644f4f84bfd.bindTooltip(
+            circle_marker_cef88bb1bdfc5132d343a0269c2a68c7.bindTooltip(
                 `<div>
                      Broadway &amp; W 109 St | Bin
                  </div>`,
@@ -616,30 +616,30 @@
             );
         
     
-            var circle_marker_5a8e5e02c0ad52fd76c284bfd46d89b3 = L.circleMarker(
+            var circle_marker_ce59e1adbdc0b74418669c23feae3820 = L.circleMarker(
                 [40.76927318, -73.98478296],
                 {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
-            ).addTo(feature_group_f15ebb4688a6879803f9f1c315e2d312);
+            ).addTo(feature_group_24fd26745835c71002bb3474f2758b8f);
         
     
-        var popup_32e8c26f7a0d599f25dccf28c0495c23 = L.popup({
+        var popup_78186d70e8ff7884a8a45b966dd84e1a = L.popup({
   "maxWidth": 350,
 });
 
         
             
-                var html_30b770b8db96f08ec5086652cf741c6b = $(`<div id="html_30b770b8db96f08ec5086652cf741c6b" style="width: 100.0%; height: 100.0%;"><strong>9th Ave &amp; West 59th Street</strong><br>Type: Bin<br>Notes: Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!<br>Access: 24/7 (app required)</div>`)[0];
-                popup_32e8c26f7a0d599f25dccf28c0495c23.setContent(html_30b770b8db96f08ec5086652cf741c6b);
+                var html_e572aa59d1302459c10fe07ca7fde829 = $(`<div id="html_e572aa59d1302459c10fe07ca7fde829" style="width: 100.0%; height: 100.0%;"><strong>9th Ave &amp; West 59th Street</strong><br>Type: Bin<br>Notes: Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!<br>Access: 24/7 (app required)</div>`)[0];
+                popup_78186d70e8ff7884a8a45b966dd84e1a.setContent(html_e572aa59d1302459c10fe07ca7fde829);
             
         
 
-        circle_marker_5a8e5e02c0ad52fd76c284bfd46d89b3.bindPopup(popup_32e8c26f7a0d599f25dccf28c0495c23)
+        circle_marker_ce59e1adbdc0b74418669c23feae3820.bindPopup(popup_78186d70e8ff7884a8a45b966dd84e1a)
         ;
 
         
     
     
-            circle_marker_5a8e5e02c0ad52fd76c284bfd46d89b3.bindTooltip(
+            circle_marker_ce59e1adbdc0b74418669c23feae3820.bindTooltip(
                 `<div>
                      9th Ave &amp; West 59th Street | Bin
                  </div>`,
@@ -649,30 +649,30 @@
             );
         
     
-            var circle_marker_bd5d7b05e1a01a587bbdb7ed4d3ba05e = L.circleMarker(
+            var circle_marker_0ae3845e07795aa99a3c6dce90e36d49 = L.circleMarker(
                 [40.78957914, -73.97379657],
                 {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
-            ).addTo(feature_group_f15ebb4688a6879803f9f1c315e2d312);
+            ).addTo(feature_group_24fd26745835c71002bb3474f2758b8f);
         
     
-        var popup_020af093c4a7514892a66edd4f31c13b = L.popup({
+        var popup_306f12bc91cc5a5127ec30500b806a1f = L.popup({
   "maxWidth": 350,
 });
 
         
             
-                var html_d475869df1da31cc0acc210ad9c6f196 = $(`<div id="html_d475869df1da31cc0acc210ad9c6f196" style="width: 100.0%; height: 100.0%;"><strong>W 89 St &amp; Amsterdam Ave</strong><br>Type: Bin<br>Notes: Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!<br>Access: 24/7 (app required)</div>`)[0];
-                popup_020af093c4a7514892a66edd4f31c13b.setContent(html_d475869df1da31cc0acc210ad9c6f196);
+                var html_b4011505954c8e7066d6046266e92577 = $(`<div id="html_b4011505954c8e7066d6046266e92577" style="width: 100.0%; height: 100.0%;"><strong>W 89 St &amp; Amsterdam Ave</strong><br>Type: Bin<br>Notes: Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!<br>Access: 24/7 (app required)</div>`)[0];
+                popup_306f12bc91cc5a5127ec30500b806a1f.setContent(html_b4011505954c8e7066d6046266e92577);
             
         
 
-        circle_marker_bd5d7b05e1a01a587bbdb7ed4d3ba05e.bindPopup(popup_020af093c4a7514892a66edd4f31c13b)
+        circle_marker_0ae3845e07795aa99a3c6dce90e36d49.bindPopup(popup_306f12bc91cc5a5127ec30500b806a1f)
         ;
 
         
     
     
-            circle_marker_bd5d7b05e1a01a587bbdb7ed4d3ba05e.bindTooltip(
+            circle_marker_0ae3845e07795aa99a3c6dce90e36d49.bindTooltip(
                 `<div>
                      W 89 St &amp; Amsterdam Ave | Bin
                  </div>`,
@@ -682,30 +682,30 @@
             );
         
     
-            var circle_marker_c24fde825e6cc2bfb93246b7d665fa59 = L.circleMarker(
+            var circle_marker_b85c7400bfa3bd68cc13469d2079b67d = L.circleMarker(
                 [40.79525233, -73.97328626],
                 {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
-            ).addTo(feature_group_f15ebb4688a6879803f9f1c315e2d312);
+            ).addTo(feature_group_24fd26745835c71002bb3474f2758b8f);
         
     
-        var popup_b82638ac3f95d0ccb04fb49ca498b4f3 = L.popup({
+        var popup_f6999e17aa9fbce463f373fd5822ef1a = L.popup({
   "maxWidth": 350,
 });
 
         
             
-                var html_f202dc29ff8eca0282c75de0ce302dfb = $(`<div id="html_f202dc29ff8eca0282c75de0ce302dfb" style="width: 100.0%; height: 100.0%;"><strong>W 96 St &amp; West End Ave</strong><br>Type: Bin<br>Notes: Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!<br>Access: 24/7 (app required)</div>`)[0];
-                popup_b82638ac3f95d0ccb04fb49ca498b4f3.setContent(html_f202dc29ff8eca0282c75de0ce302dfb);
+                var html_413acacbfbe874306ee6b4f990e0580f = $(`<div id="html_413acacbfbe874306ee6b4f990e0580f" style="width: 100.0%; height: 100.0%;"><strong>W 96 St &amp; West End Ave</strong><br>Type: Bin<br>Notes: Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!<br>Access: 24/7 (app required)</div>`)[0];
+                popup_f6999e17aa9fbce463f373fd5822ef1a.setContent(html_413acacbfbe874306ee6b4f990e0580f);
             
         
 
-        circle_marker_c24fde825e6cc2bfb93246b7d665fa59.bindPopup(popup_b82638ac3f95d0ccb04fb49ca498b4f3)
+        circle_marker_b85c7400bfa3bd68cc13469d2079b67d.bindPopup(popup_f6999e17aa9fbce463f373fd5822ef1a)
         ;
 
         
     
     
-            circle_marker_c24fde825e6cc2bfb93246b7d665fa59.bindTooltip(
+            circle_marker_b85c7400bfa3bd68cc13469d2079b67d.bindTooltip(
                 `<div>
                      W 96 St &amp; West End Ave | Bin
                  </div>`,
@@ -715,30 +715,30 @@
             );
         
     
-            var circle_marker_e267d0d49d36f9b138e045f9ef5a9734 = L.circleMarker(
+            var circle_marker_52df7048d6d81515c55e9bec3a844262 = L.circleMarker(
                 [40.77113841, -73.98717945],
                 {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
-            ).addTo(feature_group_f15ebb4688a6879803f9f1c315e2d312);
+            ).addTo(feature_group_24fd26745835c71002bb3474f2758b8f);
         
     
-        var popup_1d7b5c7bdefa4ad83fe13a33f4ba03d6 = L.popup({
+        var popup_b5499536fe0608a79f8d6920342c1a10 = L.popup({
   "maxWidth": 350,
 });
 
         
             
-                var html_f499864b4272e68a18d450b2be30dfde = $(`<div id="html_f499864b4272e68a18d450b2be30dfde" style="width: 100.0%; height: 100.0%;"><strong>W 60 St &amp; Amsterdam Ave</strong><br>Type: Bin<br>Notes: Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!<br>Access: 24/7 (app required)</div>`)[0];
-                popup_1d7b5c7bdefa4ad83fe13a33f4ba03d6.setContent(html_f499864b4272e68a18d450b2be30dfde);
+                var html_6d423cab6e66932a203b813e916b28f4 = $(`<div id="html_6d423cab6e66932a203b813e916b28f4" style="width: 100.0%; height: 100.0%;"><strong>W 60 St &amp; Amsterdam Ave</strong><br>Type: Bin<br>Notes: Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!<br>Access: 24/7 (app required)</div>`)[0];
+                popup_b5499536fe0608a79f8d6920342c1a10.setContent(html_6d423cab6e66932a203b813e916b28f4);
             
         
 
-        circle_marker_e267d0d49d36f9b138e045f9ef5a9734.bindPopup(popup_1d7b5c7bdefa4ad83fe13a33f4ba03d6)
+        circle_marker_52df7048d6d81515c55e9bec3a844262.bindPopup(popup_b5499536fe0608a79f8d6920342c1a10)
         ;
 
         
     
     
-            circle_marker_e267d0d49d36f9b138e045f9ef5a9734.bindTooltip(
+            circle_marker_52df7048d6d81515c55e9bec3a844262.bindTooltip(
                 `<div>
                      W 60 St &amp; Amsterdam Ave | Bin
                  </div>`,
@@ -748,30 +748,30 @@
             );
         
     
-            var circle_marker_7ad8c9db2abfd5c71d36f8d02a3a1121 = L.circleMarker(
+            var circle_marker_44e46b1737871822c1fa6e11bc82be82 = L.circleMarker(
                 [40.78070495, -73.97665659],
                 {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
-            ).addTo(feature_group_f15ebb4688a6879803f9f1c315e2d312);
+            ).addTo(feature_group_24fd26745835c71002bb3474f2758b8f);
         
     
-        var popup_68e60d52b4a6c704345b6b48b8a5e1c4 = L.popup({
+        var popup_6b25bd06242eb77bbfaa41c29884c2cb = L.popup({
   "maxWidth": 350,
 });
 
         
             
-                var html_d32eab82010fabdade79e2ab700b214d = $(`<div id="html_d32eab82010fabdade79e2ab700b214d" style="width: 100.0%; height: 100.0%;"><strong>W 77 St &amp; Columbus Ave</strong><br>Type: Bin<br>Notes: Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!<br>Access: 24/7 (app required)</div>`)[0];
-                popup_68e60d52b4a6c704345b6b48b8a5e1c4.setContent(html_d32eab82010fabdade79e2ab700b214d);
+                var html_6cd2da80ce144cba0b3d7f2fe47d61a7 = $(`<div id="html_6cd2da80ce144cba0b3d7f2fe47d61a7" style="width: 100.0%; height: 100.0%;"><strong>W 77 St &amp; Columbus Ave</strong><br>Type: Bin<br>Notes: Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!<br>Access: 24/7 (app required)</div>`)[0];
+                popup_6b25bd06242eb77bbfaa41c29884c2cb.setContent(html_6cd2da80ce144cba0b3d7f2fe47d61a7);
             
         
 
-        circle_marker_7ad8c9db2abfd5c71d36f8d02a3a1121.bindPopup(popup_68e60d52b4a6c704345b6b48b8a5e1c4)
+        circle_marker_44e46b1737871822c1fa6e11bc82be82.bindPopup(popup_6b25bd06242eb77bbfaa41c29884c2cb)
         ;
 
         
     
     
-            circle_marker_7ad8c9db2abfd5c71d36f8d02a3a1121.bindTooltip(
+            circle_marker_44e46b1737871822c1fa6e11bc82be82.bindTooltip(
                 `<div>
                      W 77 St &amp; Columbus Ave | Bin
                  </div>`,
@@ -781,30 +781,30 @@
             );
         
     
-            var circle_marker_79326fec9a54fc8b2e9aa90db0c5bba1 = L.circleMarker(
+            var circle_marker_23b953aca65a984091434db427bf371a = L.circleMarker(
                 [40.7721778, -73.99013103],
                 {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
-            ).addTo(feature_group_f15ebb4688a6879803f9f1c315e2d312);
+            ).addTo(feature_group_24fd26745835c71002bb3474f2758b8f);
         
     
-        var popup_11542deacbfb6624bf48b30c7e59f0ba = L.popup({
+        var popup_fc2d7e75f167ff82981d035308317b9c = L.popup({
   "maxWidth": 350,
 });
 
         
             
-                var html_b6dda2da37afa4ba6469c21245a1e41b = $(`<div id="html_b6dda2da37afa4ba6469c21245a1e41b" style="width: 100.0%; height: 100.0%;"><strong>West End Ave &amp; W 60 St</strong><br>Type: Bin<br>Notes: Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!<br>Access: 24/7 (app required)</div>`)[0];
-                popup_11542deacbfb6624bf48b30c7e59f0ba.setContent(html_b6dda2da37afa4ba6469c21245a1e41b);
+                var html_cb9300dc791ada75cc06fe3563a5c736 = $(`<div id="html_cb9300dc791ada75cc06fe3563a5c736" style="width: 100.0%; height: 100.0%;"><strong>West End Ave &amp; W 60 St</strong><br>Type: Bin<br>Notes: Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!<br>Access: 24/7 (app required)</div>`)[0];
+                popup_fc2d7e75f167ff82981d035308317b9c.setContent(html_cb9300dc791ada75cc06fe3563a5c736);
             
         
 
-        circle_marker_79326fec9a54fc8b2e9aa90db0c5bba1.bindPopup(popup_11542deacbfb6624bf48b30c7e59f0ba)
+        circle_marker_23b953aca65a984091434db427bf371a.bindPopup(popup_fc2d7e75f167ff82981d035308317b9c)
         ;
 
         
     
     
-            circle_marker_79326fec9a54fc8b2e9aa90db0c5bba1.bindTooltip(
+            circle_marker_23b953aca65a984091434db427bf371a.bindTooltip(
                 `<div>
                      West End Ave &amp; W 60 St | Bin
                  </div>`,
@@ -814,30 +814,30 @@
             );
         
     
-            var circle_marker_d9358e9fc43eaa45bbbfcc5c8a885c48 = L.circleMarker(
+            var circle_marker_6c74c3736ddce80810743a657686705d = L.circleMarker(
                 [40.77611866, -73.97994637],
                 {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
-            ).addTo(feature_group_f15ebb4688a6879803f9f1c315e2d312);
+            ).addTo(feature_group_24fd26745835c71002bb3474f2758b8f);
         
     
-        var popup_02482fab58e8ad4f464debff31ed9d06 = L.popup({
+        var popup_638cc83bb20a0f4e7cbd6ca9d6386cb1 = L.popup({
   "maxWidth": 350,
 });
 
         
             
-                var html_686b08efcb000e02a9e1030eba82ccdb = $(`<div id="html_686b08efcb000e02a9e1030eba82ccdb" style="width: 100.0%; height: 100.0%;"><strong>Columbus Ave &amp; 70th Street</strong><br>Type: Bin<br>Notes: Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!<br>Access: 24/7 (app required)</div>`)[0];
-                popup_02482fab58e8ad4f464debff31ed9d06.setContent(html_686b08efcb000e02a9e1030eba82ccdb);
+                var html_c33bf1d992ad2582bd7af59be54adf65 = $(`<div id="html_c33bf1d992ad2582bd7af59be54adf65" style="width: 100.0%; height: 100.0%;"><strong>Columbus Ave &amp; 70th Street</strong><br>Type: Bin<br>Notes: Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!<br>Access: 24/7 (app required)</div>`)[0];
+                popup_638cc83bb20a0f4e7cbd6ca9d6386cb1.setContent(html_c33bf1d992ad2582bd7af59be54adf65);
             
         
 
-        circle_marker_d9358e9fc43eaa45bbbfcc5c8a885c48.bindPopup(popup_02482fab58e8ad4f464debff31ed9d06)
+        circle_marker_6c74c3736ddce80810743a657686705d.bindPopup(popup_638cc83bb20a0f4e7cbd6ca9d6386cb1)
         ;
 
         
     
     
-            circle_marker_d9358e9fc43eaa45bbbfcc5c8a885c48.bindTooltip(
+            circle_marker_6c74c3736ddce80810743a657686705d.bindTooltip(
                 `<div>
                      Columbus Ave &amp; 70th Street | Bin
                  </div>`,
@@ -847,30 +847,30 @@
             );
         
     
-            var circle_marker_c9e6d3a6818eb417746d629a268f7062 = L.circleMarker(
+            var circle_marker_90e24de90106ad0e6166886ffa606251 = L.circleMarker(
                 [40.78520105, -73.97335456],
                 {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
-            ).addTo(feature_group_f15ebb4688a6879803f9f1c315e2d312);
+            ).addTo(feature_group_24fd26745835c71002bb3474f2758b8f);
         
     
-        var popup_5ee94d9145c497e4c3f7df6c20e3fa53 = L.popup({
+        var popup_69bd19f2f44dd4155d492906edb46b7b = L.popup({
   "maxWidth": 350,
 });
 
         
             
-                var html_0faa1a31b63e9504498356df5fad15d5 = $(`<div id="html_0faa1a31b63e9504498356df5fad15d5" style="width: 100.0%; height: 100.0%;"><strong>W 84 St &amp; Columbus Ave</strong><br>Type: Bin<br>Notes: Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!<br>Access: 24/7 (app required)</div>`)[0];
-                popup_5ee94d9145c497e4c3f7df6c20e3fa53.setContent(html_0faa1a31b63e9504498356df5fad15d5);
+                var html_b4e98647499828eab8b426133f7c6e39 = $(`<div id="html_b4e98647499828eab8b426133f7c6e39" style="width: 100.0%; height: 100.0%;"><strong>W 84 St &amp; Columbus Ave</strong><br>Type: Bin<br>Notes: Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!<br>Access: 24/7 (app required)</div>`)[0];
+                popup_69bd19f2f44dd4155d492906edb46b7b.setContent(html_b4e98647499828eab8b426133f7c6e39);
             
         
 
-        circle_marker_c9e6d3a6818eb417746d629a268f7062.bindPopup(popup_5ee94d9145c497e4c3f7df6c20e3fa53)
+        circle_marker_90e24de90106ad0e6166886ffa606251.bindPopup(popup_69bd19f2f44dd4155d492906edb46b7b)
         ;
 
         
     
     
-            circle_marker_c9e6d3a6818eb417746d629a268f7062.bindTooltip(
+            circle_marker_90e24de90106ad0e6166886ffa606251.bindTooltip(
                 `<div>
                      W 84 St &amp; Columbus Ave | Bin
                  </div>`,
@@ -880,30 +880,30 @@
             );
         
     
-            var circle_marker_0ca56827a8a8b0f855b86150bea92191 = L.circleMarker(
+            var circle_marker_b2705fb2db8dbafd3fea65895f618391 = L.circleMarker(
                 [40.78664183, -73.96841286],
                 {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
-            ).addTo(feature_group_f15ebb4688a6879803f9f1c315e2d312);
+            ).addTo(feature_group_24fd26745835c71002bb3474f2758b8f);
         
     
-        var popup_430fcc8dd125dfb47e3a29b6e5f512dc = L.popup({
+        var popup_af00fad8fd43806784dacbaccd8c94f2 = L.popup({
   "maxWidth": 350,
 });
 
         
             
-                var html_98c283f483e5fae1cb310048d4717319 = $(`<div id="html_98c283f483e5fae1cb310048d4717319" style="width: 100.0%; height: 100.0%;"><strong>W 88 St &amp; Central Park W</strong><br>Type: Bin<br>Notes: Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!<br>Access: 24/7 (app required)</div>`)[0];
-                popup_430fcc8dd125dfb47e3a29b6e5f512dc.setContent(html_98c283f483e5fae1cb310048d4717319);
+                var html_6e815a22c12e69d5379ea206e3ab6675 = $(`<div id="html_6e815a22c12e69d5379ea206e3ab6675" style="width: 100.0%; height: 100.0%;"><strong>W 88 St &amp; Central Park W</strong><br>Type: Bin<br>Notes: Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!<br>Access: 24/7 (app required)</div>`)[0];
+                popup_af00fad8fd43806784dacbaccd8c94f2.setContent(html_6e815a22c12e69d5379ea206e3ab6675);
             
         
 
-        circle_marker_0ca56827a8a8b0f855b86150bea92191.bindPopup(popup_430fcc8dd125dfb47e3a29b6e5f512dc)
+        circle_marker_b2705fb2db8dbafd3fea65895f618391.bindPopup(popup_af00fad8fd43806784dacbaccd8c94f2)
         ;
 
         
     
     
-            circle_marker_0ca56827a8a8b0f855b86150bea92191.bindTooltip(
+            circle_marker_b2705fb2db8dbafd3fea65895f618391.bindTooltip(
                 `<div>
                      W 88 St &amp; Central Park W | Bin
                  </div>`,
@@ -913,30 +913,30 @@
             );
         
     
-            var circle_marker_b7ebff1f64d63453b5f72922a522f8db = L.circleMarker(
+            var circle_marker_7afb09ea82f761ec066eb0b84c6a03f0 = L.circleMarker(
                 [40.79097092, -73.9727667],
                 {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
-            ).addTo(feature_group_f15ebb4688a6879803f9f1c315e2d312);
+            ).addTo(feature_group_24fd26745835c71002bb3474f2758b8f);
         
     
-        var popup_c91ff08af2395e84ca766e7ccd684874 = L.popup({
+        var popup_4cd6a399185f64817fb2ce7e92a4a735 = L.popup({
   "maxWidth": 350,
 });
 
         
             
-                var html_b4dacc2661d96150bfb3a614c301e204 = $(`<div id="html_b4dacc2661d96150bfb3a614c301e204" style="width: 100.0%; height: 100.0%;"><strong>W 91 St &amp; Amsterdam Ave</strong><br>Type: Bin<br>Notes: Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!<br>Access: 24/7 (app required)</div>`)[0];
-                popup_c91ff08af2395e84ca766e7ccd684874.setContent(html_b4dacc2661d96150bfb3a614c301e204);
+                var html_aa329390a779f91d0d4ffc4a7c06d672 = $(`<div id="html_aa329390a779f91d0d4ffc4a7c06d672" style="width: 100.0%; height: 100.0%;"><strong>W 91 St &amp; Amsterdam Ave</strong><br>Type: Bin<br>Notes: Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!<br>Access: 24/7 (app required)</div>`)[0];
+                popup_4cd6a399185f64817fb2ce7e92a4a735.setContent(html_aa329390a779f91d0d4ffc4a7c06d672);
             
         
 
-        circle_marker_b7ebff1f64d63453b5f72922a522f8db.bindPopup(popup_c91ff08af2395e84ca766e7ccd684874)
+        circle_marker_7afb09ea82f761ec066eb0b84c6a03f0.bindPopup(popup_4cd6a399185f64817fb2ce7e92a4a735)
         ;
 
         
     
     
-            circle_marker_b7ebff1f64d63453b5f72922a522f8db.bindTooltip(
+            circle_marker_7afb09ea82f761ec066eb0b84c6a03f0.bindTooltip(
                 `<div>
                      W 91 St &amp; Amsterdam Ave | Bin
                  </div>`,
@@ -946,30 +946,30 @@
             );
         
     
-            var circle_marker_d05848aff55f19e2a769fc0157fee6a8 = L.circleMarker(
+            var circle_marker_a9b9b8fa3da6dae444fe3e8920816043 = L.circleMarker(
                 [40.77844967, -73.98593115],
                 {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
-            ).addTo(feature_group_f15ebb4688a6879803f9f1c315e2d312);
+            ).addTo(feature_group_24fd26745835c71002bb3474f2758b8f);
         
     
-        var popup_31f04cf7f87d01aa249e8d67338de7e1 = L.popup({
+        var popup_0109d03ed1e3c469b59b716bc540877e = L.popup({
   "maxWidth": 350,
 });
 
         
             
-                var html_bd7fb851ad9d3aed5962188383d697ba = $(`<div id="html_bd7fb851ad9d3aed5962188383d697ba" style="width: 100.0%; height: 100.0%;"><strong>West End Ave &amp; W 70 St</strong><br>Type: Bin<br>Notes: Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!<br>Access: 24/7 (app required)</div>`)[0];
-                popup_31f04cf7f87d01aa249e8d67338de7e1.setContent(html_bd7fb851ad9d3aed5962188383d697ba);
+                var html_0b59c088142daf765082dfd8cb4ac169 = $(`<div id="html_0b59c088142daf765082dfd8cb4ac169" style="width: 100.0%; height: 100.0%;"><strong>West End Ave &amp; W 70 St</strong><br>Type: Bin<br>Notes: Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!<br>Access: 24/7 (app required)</div>`)[0];
+                popup_0109d03ed1e3c469b59b716bc540877e.setContent(html_0b59c088142daf765082dfd8cb4ac169);
             
         
 
-        circle_marker_d05848aff55f19e2a769fc0157fee6a8.bindPopup(popup_31f04cf7f87d01aa249e8d67338de7e1)
+        circle_marker_a9b9b8fa3da6dae444fe3e8920816043.bindPopup(popup_0109d03ed1e3c469b59b716bc540877e)
         ;
 
         
     
     
-            circle_marker_d05848aff55f19e2a769fc0157fee6a8.bindTooltip(
+            circle_marker_a9b9b8fa3da6dae444fe3e8920816043.bindTooltip(
                 `<div>
                      West End Ave &amp; W 70 St | Bin
                  </div>`,
@@ -979,30 +979,30 @@
             );
         
     
-            var circle_marker_59084ab3c4169405530a7404b68d5bf1 = L.circleMarker(
+            var circle_marker_ebcc50b75fb956e3f892f479b49e92d7 = L.circleMarker(
                 [40.78693626, -73.97570673],
                 {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
-            ).addTo(feature_group_f15ebb4688a6879803f9f1c315e2d312);
+            ).addTo(feature_group_24fd26745835c71002bb3474f2758b8f);
         
     
-        var popup_39d2f28016d0f20a677f51f0dd724967 = L.popup({
+        var popup_3d54b25748965b0b54bb4ff2f127aca7 = L.popup({
   "maxWidth": 350,
 });
 
         
             
-                var html_50ec5d1d1d072e4a77a92f7dcc20c9c3 = $(`<div id="html_50ec5d1d1d072e4a77a92f7dcc20c9c3" style="width: 100.0%; height: 100.0%;"><strong>Amsterdam Ave &amp; W 85 St</strong><br>Type: Bin<br>Notes: Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!<br>Access: 24/7 (app required)</div>`)[0];
-                popup_39d2f28016d0f20a677f51f0dd724967.setContent(html_50ec5d1d1d072e4a77a92f7dcc20c9c3);
+                var html_f8aa021ffece4f1741cde5333650fa30 = $(`<div id="html_f8aa021ffece4f1741cde5333650fa30" style="width: 100.0%; height: 100.0%;"><strong>Amsterdam Ave &amp; W 85 St</strong><br>Type: Bin<br>Notes: Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!<br>Access: 24/7 (app required)</div>`)[0];
+                popup_3d54b25748965b0b54bb4ff2f127aca7.setContent(html_f8aa021ffece4f1741cde5333650fa30);
             
         
 
-        circle_marker_59084ab3c4169405530a7404b68d5bf1.bindPopup(popup_39d2f28016d0f20a677f51f0dd724967)
+        circle_marker_ebcc50b75fb956e3f892f479b49e92d7.bindPopup(popup_3d54b25748965b0b54bb4ff2f127aca7)
         ;
 
         
     
     
-            circle_marker_59084ab3c4169405530a7404b68d5bf1.bindTooltip(
+            circle_marker_ebcc50b75fb956e3f892f479b49e92d7.bindTooltip(
                 `<div>
                      Amsterdam Ave &amp; W 85 St | Bin
                  </div>`,
@@ -1012,30 +1012,30 @@
             );
         
     
-            var circle_marker_26789214d19033447366b3de17a034ea = L.circleMarker(
+            var circle_marker_434602b8c809bb44ccd4d8d0b249dfc2 = L.circleMarker(
                 [40.78189489, -73.97906582],
                 {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
-            ).addTo(feature_group_f15ebb4688a6879803f9f1c315e2d312);
+            ).addTo(feature_group_24fd26745835c71002bb3474f2758b8f);
         
     
-        var popup_1cbc9fb19cada4d32befb48af4e1c1c2 = L.popup({
+        var popup_7191dc7db9fbc79b062c36a85e26b634 = L.popup({
   "maxWidth": 350,
 });
 
         
             
-                var html_1cb1ca2c8a7aa7a2d61d6d92eff0ff54 = $(`<div id="html_1cb1ca2c8a7aa7a2d61d6d92eff0ff54" style="width: 100.0%; height: 100.0%;"><strong>W 77 St &amp; Amsterdam Ave</strong><br>Type: Bin<br>Notes: Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!<br>Access: 24/7 (app required)</div>`)[0];
-                popup_1cbc9fb19cada4d32befb48af4e1c1c2.setContent(html_1cb1ca2c8a7aa7a2d61d6d92eff0ff54);
+                var html_90b9f383a7fe77fb13222a1968fd3901 = $(`<div id="html_90b9f383a7fe77fb13222a1968fd3901" style="width: 100.0%; height: 100.0%;"><strong>W 77 St &amp; Amsterdam Ave</strong><br>Type: Bin<br>Notes: Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!<br>Access: 24/7 (app required)</div>`)[0];
+                popup_7191dc7db9fbc79b062c36a85e26b634.setContent(html_90b9f383a7fe77fb13222a1968fd3901);
             
         
 
-        circle_marker_26789214d19033447366b3de17a034ea.bindPopup(popup_1cbc9fb19cada4d32befb48af4e1c1c2)
+        circle_marker_434602b8c809bb44ccd4d8d0b249dfc2.bindPopup(popup_7191dc7db9fbc79b062c36a85e26b634)
         ;
 
         
     
     
-            circle_marker_26789214d19033447366b3de17a034ea.bindTooltip(
+            circle_marker_434602b8c809bb44ccd4d8d0b249dfc2.bindTooltip(
                 `<div>
                      W 77 St &amp; Amsterdam Ave | Bin
                  </div>`,
@@ -1045,30 +1045,30 @@
             );
         
     
-            var circle_marker_a14d06b48a1f6e29c8d9db5827f42e0b = L.circleMarker(
+            var circle_marker_09b8531716feb39fbcddf613601d75bd = L.circleMarker(
                 [40.79786102, -73.96400325],
                 {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
-            ).addTo(feature_group_f15ebb4688a6879803f9f1c315e2d312);
+            ).addTo(feature_group_24fd26745835c71002bb3474f2758b8f);
         
     
-        var popup_512365385b9614050f5fdd431abe9a86 = L.popup({
+        var popup_fd07b79467a0b9ebe19c988d2a0fdcf3 = L.popup({
   "maxWidth": 350,
 });
 
         
             
-                var html_2c25aedda6414d5844c4cf842ed4cdd4 = $(`<div id="html_2c25aedda6414d5844c4cf842ed4cdd4" style="width: 100.0%; height: 100.0%;"><strong>W 104 St &amp; Columbus Ave</strong><br>Type: Bin<br>Notes: Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!<br>Access: 24/7 (app required)</div>`)[0];
-                popup_512365385b9614050f5fdd431abe9a86.setContent(html_2c25aedda6414d5844c4cf842ed4cdd4);
+                var html_99220f5549ef15ee6b864088261807b9 = $(`<div id="html_99220f5549ef15ee6b864088261807b9" style="width: 100.0%; height: 100.0%;"><strong>W 104 St &amp; Columbus Ave</strong><br>Type: Bin<br>Notes: Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!<br>Access: 24/7 (app required)</div>`)[0];
+                popup_fd07b79467a0b9ebe19c988d2a0fdcf3.setContent(html_99220f5549ef15ee6b864088261807b9);
             
         
 
-        circle_marker_a14d06b48a1f6e29c8d9db5827f42e0b.bindPopup(popup_512365385b9614050f5fdd431abe9a86)
+        circle_marker_09b8531716feb39fbcddf613601d75bd.bindPopup(popup_fd07b79467a0b9ebe19c988d2a0fdcf3)
         ;
 
         
     
     
-            circle_marker_a14d06b48a1f6e29c8d9db5827f42e0b.bindTooltip(
+            circle_marker_09b8531716feb39fbcddf613601d75bd.bindTooltip(
                 `<div>
                      W 104 St &amp; Columbus Ave | Bin
                  </div>`,
@@ -1078,30 +1078,30 @@
             );
         
     
-            var circle_marker_e700733958ca3e8b220bc8355a9b49bf = L.circleMarker(
+            var circle_marker_0937e77c2f7442da0af07df14935771e = L.circleMarker(
                 [40.77068591, -73.98008527],
                 {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
-            ).addTo(feature_group_f15ebb4688a6879803f9f1c315e2d312);
+            ).addTo(feature_group_24fd26745835c71002bb3474f2758b8f);
         
     
-        var popup_69a6392f212f42a8dd63bb7f66b9b580 = L.popup({
+        var popup_476d05af75f4f1604fc0d8e9dbe477d4 = L.popup({
   "maxWidth": 350,
 });
 
         
             
-                var html_7d19433b1a3abdaec810b870307d1f7c = $(`<div id="html_7d19433b1a3abdaec810b870307d1f7c" style="width: 100.0%; height: 100.0%;"><strong>W 63 St &amp; Central Park W</strong><br>Type: Bin<br>Notes: Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!<br>Access: 24/7 (app required)</div>`)[0];
-                popup_69a6392f212f42a8dd63bb7f66b9b580.setContent(html_7d19433b1a3abdaec810b870307d1f7c);
+                var html_5e7e2d4785ea2b78073c1d6111450bad = $(`<div id="html_5e7e2d4785ea2b78073c1d6111450bad" style="width: 100.0%; height: 100.0%;"><strong>W 63 St &amp; Central Park W</strong><br>Type: Bin<br>Notes: Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!<br>Access: 24/7 (app required)</div>`)[0];
+                popup_476d05af75f4f1604fc0d8e9dbe477d4.setContent(html_5e7e2d4785ea2b78073c1d6111450bad);
             
         
 
-        circle_marker_e700733958ca3e8b220bc8355a9b49bf.bindPopup(popup_69a6392f212f42a8dd63bb7f66b9b580)
+        circle_marker_0937e77c2f7442da0af07df14935771e.bindPopup(popup_476d05af75f4f1604fc0d8e9dbe477d4)
         ;
 
         
     
     
-            circle_marker_e700733958ca3e8b220bc8355a9b49bf.bindTooltip(
+            circle_marker_0937e77c2f7442da0af07df14935771e.bindTooltip(
                 `<div>
                      W 63 St &amp; Central Park W | Bin
                  </div>`,
@@ -1111,30 +1111,30 @@
             );
         
     
-            var circle_marker_5f77251a9c05229d773747741305584f = L.circleMarker(
+            var circle_marker_5afb432ad47480d5175a5ea9e95c1b04 = L.circleMarker(
                 [40.77970216, -73.98189624],
                 {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
-            ).addTo(feature_group_f15ebb4688a6879803f9f1c315e2d312);
+            ).addTo(feature_group_24fd26745835c71002bb3474f2758b8f);
         
     
-        var popup_eb97d1e765449c49549a7c7d54433811 = L.popup({
+        var popup_e424eff71b2e0132bdcb3f2fdaae83a3 = L.popup({
   "maxWidth": 350,
 });
 
         
             
-                var html_f21a786a0a667ec2098757c1503d39e7 = $(`<div id="html_f21a786a0a667ec2098757c1503d39e7" style="width: 100.0%; height: 100.0%;"><strong>Broadway &amp; W 73 St</strong><br>Type: Bin<br>Notes: Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!<br>Access: 24/7 (app required)</div>`)[0];
-                popup_eb97d1e765449c49549a7c7d54433811.setContent(html_f21a786a0a667ec2098757c1503d39e7);
+                var html_bada8fcb387ce08a743b2ee8b3d8f3cb = $(`<div id="html_bada8fcb387ce08a743b2ee8b3d8f3cb" style="width: 100.0%; height: 100.0%;"><strong>Broadway &amp; W 73 St</strong><br>Type: Bin<br>Notes: Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!<br>Access: 24/7 (app required)</div>`)[0];
+                popup_e424eff71b2e0132bdcb3f2fdaae83a3.setContent(html_bada8fcb387ce08a743b2ee8b3d8f3cb);
             
         
 
-        circle_marker_5f77251a9c05229d773747741305584f.bindPopup(popup_eb97d1e765449c49549a7c7d54433811)
+        circle_marker_5afb432ad47480d5175a5ea9e95c1b04.bindPopup(popup_e424eff71b2e0132bdcb3f2fdaae83a3)
         ;
 
         
     
     
-            circle_marker_5f77251a9c05229d773747741305584f.bindTooltip(
+            circle_marker_5afb432ad47480d5175a5ea9e95c1b04.bindTooltip(
                 `<div>
                      Broadway &amp; W 73 St | Bin
                  </div>`,
@@ -1144,30 +1144,30 @@
             );
         
     
-            var circle_marker_ae0435cb472b8b03a95f297a7f79ee90 = L.circleMarker(
+            var circle_marker_7b73fa18a9abc76900a3e378dd2488a0 = L.circleMarker(
                 [40.78907737, -73.97608351],
                 {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
-            ).addTo(feature_group_f15ebb4688a6879803f9f1c315e2d312);
+            ).addTo(feature_group_24fd26745835c71002bb3474f2758b8f);
         
     
-        var popup_7214c32fb091ca622f92dd3bbd651974 = L.popup({
+        var popup_9b71928a692bc7c759005fe2ca8a2f75 = L.popup({
   "maxWidth": 350,
 });
 
         
             
-                var html_5bf025270dc606d1940a8ecb294e1551 = $(`<div id="html_5bf025270dc606d1940a8ecb294e1551" style="width: 100.0%; height: 100.0%;"><strong>Broadway &amp; W 87 St</strong><br>Type: Bin<br>Notes: Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!<br>Access: 24/7 (app required)</div>`)[0];
-                popup_7214c32fb091ca622f92dd3bbd651974.setContent(html_5bf025270dc606d1940a8ecb294e1551);
+                var html_74151be30f95f74f876678abf8b57f3e = $(`<div id="html_74151be30f95f74f876678abf8b57f3e" style="width: 100.0%; height: 100.0%;"><strong>Broadway &amp; W 87 St</strong><br>Type: Bin<br>Notes: Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!<br>Access: 24/7 (app required)</div>`)[0];
+                popup_9b71928a692bc7c759005fe2ca8a2f75.setContent(html_74151be30f95f74f876678abf8b57f3e);
             
         
 
-        circle_marker_ae0435cb472b8b03a95f297a7f79ee90.bindPopup(popup_7214c32fb091ca622f92dd3bbd651974)
+        circle_marker_7b73fa18a9abc76900a3e378dd2488a0.bindPopup(popup_9b71928a692bc7c759005fe2ca8a2f75)
         ;
 
         
     
     
-            circle_marker_ae0435cb472b8b03a95f297a7f79ee90.bindTooltip(
+            circle_marker_7b73fa18a9abc76900a3e378dd2488a0.bindTooltip(
                 `<div>
                      Broadway &amp; W 87 St | Bin
                  </div>`,
@@ -1177,30 +1177,30 @@
             );
         
     
-            var circle_marker_a354359a0407679771f2923316ed6b4d = L.circleMarker(
+            var circle_marker_822327c400574fe3d84894108991f4cd = L.circleMarker(
                 [40.78596764, -73.9786452],
                 {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
-            ).addTo(feature_group_f15ebb4688a6879803f9f1c315e2d312);
+            ).addTo(feature_group_24fd26745835c71002bb3474f2758b8f);
         
     
-        var popup_871f6afd4be6069c8f86d9843d3247c8 = L.popup({
+        var popup_303a183c54f690ecb0139bb509a9f52e = L.popup({
   "maxWidth": 350,
 });
 
         
             
-                var html_6d56d64a5f1519073115416e6cfb0b88 = $(`<div id="html_6d56d64a5f1519073115416e6cfb0b88" style="width: 100.0%; height: 100.0%;"><strong>W 82 St &amp; Broadway</strong><br>Type: Bin<br>Notes: Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!<br>Access: 24/7 (app required)</div>`)[0];
-                popup_871f6afd4be6069c8f86d9843d3247c8.setContent(html_6d56d64a5f1519073115416e6cfb0b88);
+                var html_40ebd0a50f998c9e03d4397a9c80b16c = $(`<div id="html_40ebd0a50f998c9e03d4397a9c80b16c" style="width: 100.0%; height: 100.0%;"><strong>W 82 St &amp; Broadway</strong><br>Type: Bin<br>Notes: Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!<br>Access: 24/7 (app required)</div>`)[0];
+                popup_303a183c54f690ecb0139bb509a9f52e.setContent(html_40ebd0a50f998c9e03d4397a9c80b16c);
             
         
 
-        circle_marker_a354359a0407679771f2923316ed6b4d.bindPopup(popup_871f6afd4be6069c8f86d9843d3247c8)
+        circle_marker_822327c400574fe3d84894108991f4cd.bindPopup(popup_303a183c54f690ecb0139bb509a9f52e)
         ;
 
         
     
     
-            circle_marker_a354359a0407679771f2923316ed6b4d.bindTooltip(
+            circle_marker_822327c400574fe3d84894108991f4cd.bindTooltip(
                 `<div>
                      W 82 St &amp; Broadway | Bin
                  </div>`,
@@ -1210,30 +1210,30 @@
             );
         
     
-            var circle_marker_e64eeb6cbb04e9b562577dc8a938e78b = L.circleMarker(
+            var circle_marker_af8fb234a6b31e56e12c42980d79f2b0 = L.circleMarker(
                 [40.7909141, -73.96910424],
                 {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
-            ).addTo(feature_group_f15ebb4688a6879803f9f1c315e2d312);
+            ).addTo(feature_group_24fd26745835c71002bb3474f2758b8f);
         
     
-        var popup_54c430af6001d5e80a76dcae4c7c5d3a = L.popup({
+        var popup_651fd17f1d2ee1352cda5633a4d38c4f = L.popup({
   "maxWidth": 350,
 });
 
         
             
-                var html_85db9f7ed5b978cfca15697306ee9a0b = $(`<div id="html_85db9f7ed5b978cfca15697306ee9a0b" style="width: 100.0%; height: 100.0%;"><strong>W 93 St &amp; Columbus Ave</strong><br>Type: Bin<br>Notes: Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!<br>Access: 24/7 (app required)</div>`)[0];
-                popup_54c430af6001d5e80a76dcae4c7c5d3a.setContent(html_85db9f7ed5b978cfca15697306ee9a0b);
+                var html_e9866aa3c1f08e2ac02ae648cb059857 = $(`<div id="html_e9866aa3c1f08e2ac02ae648cb059857" style="width: 100.0%; height: 100.0%;"><strong>W 93 St &amp; Columbus Ave</strong><br>Type: Bin<br>Notes: Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!<br>Access: 24/7 (app required)</div>`)[0];
+                popup_651fd17f1d2ee1352cda5633a4d38c4f.setContent(html_e9866aa3c1f08e2ac02ae648cb059857);
             
         
 
-        circle_marker_e64eeb6cbb04e9b562577dc8a938e78b.bindPopup(popup_54c430af6001d5e80a76dcae4c7c5d3a)
+        circle_marker_af8fb234a6b31e56e12c42980d79f2b0.bindPopup(popup_651fd17f1d2ee1352cda5633a4d38c4f)
         ;
 
         
     
     
-            circle_marker_e64eeb6cbb04e9b562577dc8a938e78b.bindTooltip(
+            circle_marker_af8fb234a6b31e56e12c42980d79f2b0.bindTooltip(
                 `<div>
                      W 93 St &amp; Columbus Ave | Bin
                  </div>`,
@@ -1243,30 +1243,30 @@
             );
         
     
-            var circle_marker_8bd533f694b57b8a68aeab9418ba9fad = L.circleMarker(
+            var circle_marker_a71b06491cf532bacfefdb19779b8782 = L.circleMarker(
                 [40.77519164, -73.98753544],
                 {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
-            ).addTo(feature_group_f15ebb4688a6879803f9f1c315e2d312);
+            ).addTo(feature_group_24fd26745835c71002bb3474f2758b8f);
         
     
-        var popup_20bb7d4d242f630e12f3eb02d961175f = L.popup({
+        var popup_edeeafa2e375e086a093d6fe6cebe7a3 = L.popup({
   "maxWidth": 350,
 });
 
         
             
-                var html_95c96fd3e14a3b1da776dff09f917170 = $(`<div id="html_95c96fd3e14a3b1da776dff09f917170" style="width: 100.0%; height: 100.0%;"><strong>West End Ave &amp; W 65 St</strong><br>Type: Bin<br>Notes: Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!<br>Access: 24/7 (app required)</div>`)[0];
-                popup_20bb7d4d242f630e12f3eb02d961175f.setContent(html_95c96fd3e14a3b1da776dff09f917170);
+                var html_9bb46b0ae239123e9dc05f9fbe933ccb = $(`<div id="html_9bb46b0ae239123e9dc05f9fbe933ccb" style="width: 100.0%; height: 100.0%;"><strong>West End Ave &amp; W 65 St</strong><br>Type: Bin<br>Notes: Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!<br>Access: 24/7 (app required)</div>`)[0];
+                popup_edeeafa2e375e086a093d6fe6cebe7a3.setContent(html_9bb46b0ae239123e9dc05f9fbe933ccb);
             
         
 
-        circle_marker_8bd533f694b57b8a68aeab9418ba9fad.bindPopup(popup_20bb7d4d242f630e12f3eb02d961175f)
+        circle_marker_a71b06491cf532bacfefdb19779b8782.bindPopup(popup_edeeafa2e375e086a093d6fe6cebe7a3)
         ;
 
         
     
     
-            circle_marker_8bd533f694b57b8a68aeab9418ba9fad.bindTooltip(
+            circle_marker_a71b06491cf532bacfefdb19779b8782.bindTooltip(
                 `<div>
                      West End Ave &amp; W 65 St | Bin
                  </div>`,
@@ -1276,23 +1276,23 @@
             );
         
     
-            feature_group_f15ebb4688a6879803f9f1c315e2d312.addTo(map_31014855627a2917f37130dd3b94734c);
+            feature_group_24fd26745835c71002bb3474f2758b8f.addTo(map_0a16c8bcdadf2ca95c86859a9612206b);
         
     
-            var feature_group_c14742dfa2872f63e7b34102f0fb45f5 = L.featureGroup(
+            var feature_group_168a50e7474e7d89b122593caebb8bb8 = L.featureGroup(
                 {
 }
             );
         
     
-            var marker_1171a77b1fe53c1b90735f8c1f3622bd = L.marker(
+            var marker_380ef1091cbbf63913e189578182fcc6 = L.marker(
                 [40.773404, -73.981848],
                 {
 }
-            ).addTo(feature_group_c14742dfa2872f63e7b34102f0fb45f5);
+            ).addTo(feature_group_168a50e7474e7d89b122593caebb8bb8);
         
     
-            var div_icon_e0893a55acc6019ea44ab15270850672 = L.divIcon({
+            var div_icon_5da8ea578bb4bbde7b99737e80950a85 = L.divIcon({
   "html": "\u003cdiv style=\"width:18px;height:18px;background:white;border:1px solid #2471a3;border-radius:50%;display:flex;align-items:center;justify-content:center;\"\u003e\u003ci class=\"fa-solid fa-leaf\" style=\"color:#2471a3;font-size:11px;\"\u003e\u003c/i\u003e\u003c/div\u003e",
   "iconSize": [18, 18],
   "iconAnchor": [9, 9],
@@ -1300,24 +1300,24 @@
 });
         
     
-        var popup_0356547bdf6cbdd59abbfbdc15e80df0 = L.popup({
+        var popup_82e882a20d6f144f33e962e0a85cfc0a = L.popup({
   "maxWidth": 350,
 });
 
         
             
-                var html_cf005dc63d68fd5e3f686d99c7d51f4a = $(`<div id="html_cf005dc63d68fd5e3f686d99c7d51f4a" style="width: 100.0%; height: 100.0%;"><strong>Tucker Square Thursday Greenmarket</strong><br>Type: Drop-off Site<br>Open months: Year Round<br>Open days and hours: Thursday (Start Time: 8:00 AM - End Time:  11:00 AM)</div>`)[0];
-                popup_0356547bdf6cbdd59abbfbdc15e80df0.setContent(html_cf005dc63d68fd5e3f686d99c7d51f4a);
+                var html_24c91c45bb0ebb9ca22645d7c6473fc1 = $(`<div id="html_24c91c45bb0ebb9ca22645d7c6473fc1" style="width: 100.0%; height: 100.0%;"><strong>Tucker Square Thursday Greenmarket</strong><br>Type: Drop-off Site<br>Open months: Year Round<br>Open days and hours: Thursday (Start Time: 8:00 AM - End Time:  11:00 AM)</div>`)[0];
+                popup_82e882a20d6f144f33e962e0a85cfc0a.setContent(html_24c91c45bb0ebb9ca22645d7c6473fc1);
             
         
 
-        marker_1171a77b1fe53c1b90735f8c1f3622bd.bindPopup(popup_0356547bdf6cbdd59abbfbdc15e80df0)
+        marker_380ef1091cbbf63913e189578182fcc6.bindPopup(popup_82e882a20d6f144f33e962e0a85cfc0a)
         ;
 
         
     
     
-            marker_1171a77b1fe53c1b90735f8c1f3622bd.bindTooltip(
+            marker_380ef1091cbbf63913e189578182fcc6.bindTooltip(
                 `<div>
                      Tucker Square Thursday Greenmarket | Drop-off Site
                  </div>`,
@@ -1328,7 +1328,7 @@
         
     
                 {
-                    const element = marker_1171a77b1fe53c1b90735f8c1f3622bd.getElement();
+                    const element = marker_380ef1091cbbf63913e189578182fcc6.getElement();
                     if (element) {
                         element.style.width = "";
                         element.style.height = "";
@@ -1336,17 +1336,17 @@
                         element.style.marginTop = "";
                     }
                 }
-                marker_1171a77b1fe53c1b90735f8c1f3622bd.setIcon(div_icon_e0893a55acc6019ea44ab15270850672);
+                marker_380ef1091cbbf63913e189578182fcc6.setIcon(div_icon_5da8ea578bb4bbde7b99737e80950a85);
             
     
-            var marker_abe426186fca7dffd7cec2b38abc5c56 = L.marker(
+            var marker_1fffea3592a1079100e82e9ca1d56998 = L.marker(
                 [40.780087, -73.974657],
                 {
 }
-            ).addTo(feature_group_c14742dfa2872f63e7b34102f0fb45f5);
+            ).addTo(feature_group_168a50e7474e7d89b122593caebb8bb8);
         
     
-            var div_icon_be53bc40e4ca508307857b6b74080bb3 = L.divIcon({
+            var div_icon_ad249c086ab897df74435f3241f98fcb = L.divIcon({
   "html": "\u003cdiv style=\"width:18px;height:18px;background:white;border:1px solid #2471a3;border-radius:50%;display:flex;align-items:center;justify-content:center;\"\u003e\u003ci class=\"fa-solid fa-leaf\" style=\"color:#2471a3;font-size:11px;\"\u003e\u003c/i\u003e\u003c/div\u003e",
   "iconSize": [18, 18],
   "iconAnchor": [9, 9],
@@ -1354,24 +1354,24 @@
 });
         
     
-        var popup_5cec4984a356595cb35e1efb3cb37c49 = L.popup({
+        var popup_824f889a371ef5fc5fe191e61e9a3128 = L.popup({
   "maxWidth": 350,
 });
 
         
             
-                var html_9ba8274a38f5754bd785746b5a9f2085 = $(`<div id="html_9ba8274a38f5754bd785746b5a9f2085" style="width: 100.0%; height: 100.0%;"><strong>79th St. Greenmarket</strong><br>Type: Drop-off Site<br>Open months: Year Round<br>Open days and hours: Sunday (Start Time: 9:00 AM - End Time:  3:00 PM)</div>`)[0];
-                popup_5cec4984a356595cb35e1efb3cb37c49.setContent(html_9ba8274a38f5754bd785746b5a9f2085);
+                var html_2731a082ca3fe01f37f16d20f7660ae6 = $(`<div id="html_2731a082ca3fe01f37f16d20f7660ae6" style="width: 100.0%; height: 100.0%;"><strong>79th St. Greenmarket</strong><br>Type: Drop-off Site<br>Open months: Year Round<br>Open days and hours: Sunday (Start Time: 9:00 AM - End Time:  3:00 PM)</div>`)[0];
+                popup_824f889a371ef5fc5fe191e61e9a3128.setContent(html_2731a082ca3fe01f37f16d20f7660ae6);
             
         
 
-        marker_abe426186fca7dffd7cec2b38abc5c56.bindPopup(popup_5cec4984a356595cb35e1efb3cb37c49)
+        marker_1fffea3592a1079100e82e9ca1d56998.bindPopup(popup_824f889a371ef5fc5fe191e61e9a3128)
         ;
 
         
     
     
-            marker_abe426186fca7dffd7cec2b38abc5c56.bindTooltip(
+            marker_1fffea3592a1079100e82e9ca1d56998.bindTooltip(
                 `<div>
                      79th St. Greenmarket | Drop-off Site
                  </div>`,
@@ -1382,7 +1382,7 @@
         
     
                 {
-                    const element = marker_abe426186fca7dffd7cec2b38abc5c56.getElement();
+                    const element = marker_1fffea3592a1079100e82e9ca1d56998.getElement();
                     if (element) {
                         element.style.width = "";
                         element.style.height = "";
@@ -1390,17 +1390,17 @@
                         element.style.marginTop = "";
                     }
                 }
-                marker_abe426186fca7dffd7cec2b38abc5c56.setIcon(div_icon_be53bc40e4ca508307857b6b74080bb3);
+                marker_1fffea3592a1079100e82e9ca1d56998.setIcon(div_icon_ad249c086ab897df74435f3241f98fcb);
             
     
-            var marker_f803002e34f41964e27dc3f419074e11 = L.marker(
+            var marker_9604afad562fc35cc195f5444f15616f = L.marker(
                 [40.78951562, -73.9716111],
                 {
 }
-            ).addTo(feature_group_c14742dfa2872f63e7b34102f0fb45f5);
+            ).addTo(feature_group_168a50e7474e7d89b122593caebb8bb8);
         
     
-            var div_icon_f1fd4ed84efb868f459fb502f97d530e = L.divIcon({
+            var div_icon_75aaf812a0aa3c3c501cf0438dcc3868 = L.divIcon({
   "html": "\u003cdiv style=\"width:18px;height:18px;background:white;border:1px solid #2471a3;border-radius:50%;display:flex;align-items:center;justify-content:center;\"\u003e\u003ci class=\"fa-solid fa-leaf\" style=\"color:#2471a3;font-size:11px;\"\u003e\u003c/i\u003e\u003c/div\u003e",
   "iconSize": [18, 18],
   "iconAnchor": [9, 9],
@@ -1408,24 +1408,24 @@
 });
         
     
-        var popup_2e6b341410d4778a1a0698a532f9ba82 = L.popup({
+        var popup_6abdef674140a8b8ba50f38bfe1e45d5 = L.popup({
   "maxWidth": 350,
 });
 
         
             
-                var html_05888596a7c7a21cdaed084b41045bd0 = $(`<div id="html_05888596a7c7a21cdaed084b41045bd0" style="width: 100.0%; height: 100.0%;"><strong>West Side Community Garden</strong><br>Type: Drop-off Site<br>Notes: Receptacles are placed outside the West Side Community Garden gate. No rice, bread, pasta, and grains. The drop-off will be closed during inclement weather including rain and snow.<br>Open months: Year Round<br>Open days and hours: Sundays (Start Time: 11:00 AM - End Time:  12:00 PM)</div>`)[0];
-                popup_2e6b341410d4778a1a0698a532f9ba82.setContent(html_05888596a7c7a21cdaed084b41045bd0);
+                var html_102e90aca765567255fbd85825ceb81c = $(`<div id="html_102e90aca765567255fbd85825ceb81c" style="width: 100.0%; height: 100.0%;"><strong>West Side Community Garden</strong><br>Type: Drop-off Site<br>Notes: Receptacles are placed outside the West Side Community Garden gate. No rice, bread, pasta, and grains. The drop-off will be closed during inclement weather including rain and snow.<br>Open months: Year Round<br>Open days and hours: Sundays (Start Time: 11:00 AM - End Time:  12:00 PM)</div>`)[0];
+                popup_6abdef674140a8b8ba50f38bfe1e45d5.setContent(html_102e90aca765567255fbd85825ceb81c);
             
         
 
-        marker_f803002e34f41964e27dc3f419074e11.bindPopup(popup_2e6b341410d4778a1a0698a532f9ba82)
+        marker_9604afad562fc35cc195f5444f15616f.bindPopup(popup_6abdef674140a8b8ba50f38bfe1e45d5)
         ;
 
         
     
     
-            marker_f803002e34f41964e27dc3f419074e11.bindTooltip(
+            marker_9604afad562fc35cc195f5444f15616f.bindTooltip(
                 `<div>
                      West Side Community Garden | Drop-off Site
                  </div>`,
@@ -1436,7 +1436,7 @@
         
     
                 {
-                    const element = marker_f803002e34f41964e27dc3f419074e11.getElement();
+                    const element = marker_9604afad562fc35cc195f5444f15616f.getElement();
                     if (element) {
                         element.style.width = "";
                         element.style.height = "";
@@ -1444,17 +1444,17 @@
                         element.style.marginTop = "";
                     }
                 }
-                marker_f803002e34f41964e27dc3f419074e11.setIcon(div_icon_f1fd4ed84efb868f459fb502f97d530e);
+                marker_9604afad562fc35cc195f5444f15616f.setIcon(div_icon_75aaf812a0aa3c3c501cf0438dcc3868);
             
     
-            var marker_6acf68ad1d92537630c8fe153c4e84b6 = L.marker(
+            var marker_ce5289afddbdddea8dd3e3c0dffe1190 = L.marker(
                 [40.794717, -73.969552],
                 {
 }
-            ).addTo(feature_group_c14742dfa2872f63e7b34102f0fb45f5);
+            ).addTo(feature_group_168a50e7474e7d89b122593caebb8bb8);
         
     
-            var div_icon_aa9e8cdd8c6480d728b170ea2c5429fd = L.divIcon({
+            var div_icon_7e25b3c7bf8b17b2f17c5deed3cda88a = L.divIcon({
   "html": "\u003cdiv style=\"width:18px;height:18px;background:white;border:1px solid #2471a3;border-radius:50%;display:flex;align-items:center;justify-content:center;\"\u003e\u003ci class=\"fa-solid fa-leaf\" style=\"color:#2471a3;font-size:11px;\"\u003e\u003c/i\u003e\u003c/div\u003e",
   "iconSize": [18, 18],
   "iconAnchor": [9, 9],
@@ -1462,24 +1462,24 @@
 });
         
     
-        var popup_f490f014c19e2627b38a55c5f17b4b76 = L.popup({
+        var popup_e3448ad25a1b4fc65299063a4014284c = L.popup({
   "maxWidth": 350,
 });
 
         
             
-                var html_27d6c882247161e6fd8321ad1c507b34 = $(`<div id="html_27d6c882247161e6fd8321ad1c507b34" style="width: 100.0%; height: 100.0%;"><strong>97th Street Greenmarket</strong><br>Type: Drop-off Site<br>Notes: No meat, bones, or dairy<br>Open months: Year Round<br>Open days and hours: Friday (Start Time: 8:00 AM - End Time:  12:30 PM)</div>`)[0];
-                popup_f490f014c19e2627b38a55c5f17b4b76.setContent(html_27d6c882247161e6fd8321ad1c507b34);
+                var html_87f2029eda4c0fd2309654f044319f15 = $(`<div id="html_87f2029eda4c0fd2309654f044319f15" style="width: 100.0%; height: 100.0%;"><strong>97th Street Greenmarket</strong><br>Type: Drop-off Site<br>Notes: No meat, bones, or dairy<br>Open months: Year Round<br>Open days and hours: Friday (Start Time: 8:00 AM - End Time:  12:30 PM)</div>`)[0];
+                popup_e3448ad25a1b4fc65299063a4014284c.setContent(html_87f2029eda4c0fd2309654f044319f15);
             
         
 
-        marker_6acf68ad1d92537630c8fe153c4e84b6.bindPopup(popup_f490f014c19e2627b38a55c5f17b4b76)
+        marker_ce5289afddbdddea8dd3e3c0dffe1190.bindPopup(popup_e3448ad25a1b4fc65299063a4014284c)
         ;
 
         
     
     
-            marker_6acf68ad1d92537630c8fe153c4e84b6.bindTooltip(
+            marker_ce5289afddbdddea8dd3e3c0dffe1190.bindTooltip(
                 `<div>
                      97th Street Greenmarket | Drop-off Site
                  </div>`,
@@ -1490,7 +1490,7 @@
         
     
                 {
-                    const element = marker_6acf68ad1d92537630c8fe153c4e84b6.getElement();
+                    const element = marker_ce5289afddbdddea8dd3e3c0dffe1190.getElement();
                     if (element) {
                         element.style.width = "";
                         element.style.height = "";
@@ -1498,29 +1498,29 @@
                         element.style.marginTop = "";
                     }
                 }
-                marker_6acf68ad1d92537630c8fe153c4e84b6.setIcon(div_icon_aa9e8cdd8c6480d728b170ea2c5429fd);
+                marker_ce5289afddbdddea8dd3e3c0dffe1190.setIcon(div_icon_7e25b3c7bf8b17b2f17c5deed3cda88a);
             
     
-            feature_group_c14742dfa2872f63e7b34102f0fb45f5.addTo(map_31014855627a2917f37130dd3b94734c);
+            feature_group_168a50e7474e7d89b122593caebb8bb8.addTo(map_0a16c8bcdadf2ca95c86859a9612206b);
         
     
-            var layer_control_f12c1886c34ff1ede9a7bf6a86a511da_layers = {
+            var layer_control_241a5fd80cf5ef344ca3f394de79e59f_layers = {
                 base_layers : {
                 },
                 overlays :  {
-                    "Bins (orange): 29" : feature_group_f15ebb4688a6879803f9f1c315e2d312,
-                    "Drop-off Sites (blue leaf pins): 4" : feature_group_c14742dfa2872f63e7b34102f0fb45f5,
+                    "Bins (orange): 29" : feature_group_24fd26745835c71002bb3474f2758b8f,
+                    "Drop-off Sites (blue leaf pins): 4" : feature_group_168a50e7474e7d89b122593caebb8bb8,
                 },
             };
-            let layer_control_f12c1886c34ff1ede9a7bf6a86a511da = L.control.layers(
-                layer_control_f12c1886c34ff1ede9a7bf6a86a511da_layers.base_layers,
-                layer_control_f12c1886c34ff1ede9a7bf6a86a511da_layers.overlays,
+            let layer_control_241a5fd80cf5ef344ca3f394de79e59f = L.control.layers(
+                layer_control_241a5fd80cf5ef344ca3f394de79e59f_layers.base_layers,
+                layer_control_241a5fd80cf5ef344ca3f394de79e59f_layers.overlays,
                 {
   "position": "topright",
   "collapsed": false,
   "autoZIndex": true,
 }
-            ).addTo(map_31014855627a2917f37130dd3b94734c);
+            ).addTo(map_0a16c8bcdadf2ca95c86859a9612206b);
 
         
 </script>
